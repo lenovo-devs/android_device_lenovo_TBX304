@@ -30,8 +30,8 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 TARGET_TS_MAKEUP := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_tbx304
-TARGET_RECOVERY_DEVICE_MODULES := libinit_tbx304
+TARGET_INIT_VENDOR_LIB := libinit_lenovo_tbx304
+TARGET_RECOVERY_DEVICE_MODULES := libinit_lenovo_tbx304
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_tbx304_defconfig
