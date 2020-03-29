@@ -65,7 +65,7 @@ static void set_fingerprint()
 		property_override("ro.build.description", "hq_msm8917-user 8.1.0 OPM1.171019.026 966 release-keys");
 		property_override("ro.build.product", "hq_msm8917");
 		property_override_dual("ro.product.device", "ro.vendor.product.device", "X304F");
-		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "Lenovo/LenovoTB-X304F/X304F:8.1.0/OPM1.171019.026/S001016_190329_ROW:user/release-keys");
+		property_override_dual("ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "Lenovo/LenovoTB-X304F/X304F:8.1.0/OPM1.171019.026/S001016_190329_ROW:user/release-keys");
 		property_override_dual("ro.product.model", "ro.vendor.product.model", "Lenovo TB-X304F");
 		//for installing stock OTA with TWRP
 		property_override("ro.product.ota.model", "LenovoTB4-X304F_ROW");
@@ -73,7 +73,7 @@ static void set_fingerprint()
 		property_override("ro.build.description", "hq_msm8917-user 8.1.0 OPM1.171019.026 1418 release-keys");
 		property_override("ro.build.product", "hq_msm8917");
 		property_override_dual("ro.product.device", "ro.vendor.product.device", "X304L");
-		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "Lenovo/LenovoTB-X304L/X304L:8.1.0/OPM1.171019.026/S001017_190709_ROW:user/release-keys");
+		property_override_dual("ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "Lenovo/LenovoTB-X304L/X304L:8.1.0/OPM1.171019.026/S001017_190709_ROW:user/release-keys");
 		property_override_dual("ro.product.model", "ro.vendor.product.model", "Lenovo TB-X304L");
 		//for installing stock OTA with TWRP
 		property_override("ro.product.ota.model", "LenovoTB4-X304L_ROW");
