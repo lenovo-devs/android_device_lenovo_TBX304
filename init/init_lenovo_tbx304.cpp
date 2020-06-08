@@ -67,6 +67,7 @@ static void set_fingerprint()
 		property_override_dual("ro.product.device", "ro.vendor.product.device", "X304F");
 		property_override_dual("ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "Lenovo/LenovoTB-X304F/X304F:8.1.0/OPM1.171019.026/S001016_190329_ROW:user/release-keys");
 		property_override_dual("ro.product.model", "ro.vendor.product.model", "Lenovo TB-X304F");
+		property_override("persist.vendor.dpm.feature", "0");
 		//for installing stock OTA with TWRP
 		property_override("ro.product.ota.model", "LenovoTB4-X304F_ROW");
     } else if(baseband == "msm") {
