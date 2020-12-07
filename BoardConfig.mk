@@ -17,10 +17,10 @@
 # inherit from common tb-common
 -include device/lenovo/tb-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/lenovo/TB8504
+DEVICE_PATH := device/lenovo/TBX304
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := TB-8504X,TB-8504F,tb-8504x,tb-8504f,tb_8504
+TARGET_OTA_ASSERT_DEVICE := TB-X304X,TB-X304L,TB-X304F,TBX304,tb_x304x,tb_x304l,tb_x304f,tb_x304
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
@@ -30,11 +30,11 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 TARGET_TS_MAKEUP := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_tb8504
-TARGET_RECOVERY_DEVICE_MODULES := libinit_tb8504
+TARGET_INIT_VENDOR_LIB := libinit_tbx304
+TARGET_RECOVERY_DEVICE_MODULES := libinit_tbx304
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_tb8504_defconfig
+TARGET_KERNEL_CONFIG := lineageos_tbx304_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4080218112
@@ -44,4 +44,4 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 9921059840 # 9921076224 - 16384
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
--include vendor/lenovo/TB8504/BoardConfigVendor.mk
+-include vendor/lenovo/TBX304/BoardConfigVendor.mk

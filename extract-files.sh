@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-export DEVICE=TB8504
+export DEVICE=TBX304
 export DEVICE_COMMON=tb-common
 export VENDOR=lenovo
 

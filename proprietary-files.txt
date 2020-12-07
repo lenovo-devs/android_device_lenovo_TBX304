@@ -349,6 +349,6 @@ vendor/lib/libmmcamera_sp2509_lianchuang.so
 vendor/lib/libmmcamera_sp2509.so
 vendor/lib/libmmcamera_hi259.so
 
-# TB-8504X Graphics firmware
+# TB-X304 Graphics firmware
 vendor/firmware/a300_pm4.fw
 vendor/firmware/a300_pfp.fw

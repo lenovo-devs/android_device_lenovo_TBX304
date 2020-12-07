@@ -28,19 +28,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lenovo/TB8504/device.mk)
+$(call inherit-product, device/lenovo/TBX304/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_TB8504
-PRODUCT_DEVICE := TB8504
+PRODUCT_NAME := lineage_TBX304
+PRODUCT_DEVICE := TBX304
 PRODUCT_BRAND := Lenovo
-PRODUCT_MODEL := Lenovo TB-8504X
+PRODUCT_MODEL := Lenovo TB-X304L
 PRODUCT_MANUFACTURER := Lenovo
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="msm8937_64-user 8.1.0 OPM1.171019.019 7 release-keys" \
-    TARGET_DEVICE="TB-8504X"
+    PRIVATE_BUILD_DESC="hq_msm8917-user 8.1.0 OPM1.171019.026 1418 release-keys" \
+    TARGET_DEVICE="TB-X304L"
 
-BUILD_FINGERPRINT := Lenovo/TB-8504X/TB-8504X:8.1.0/OPM1.171019.019/8504X_S001031_191204_ROW:user/release-keys
+BUILD_FINGERPRINT := Lenovo/LenovoTB-X304L/X304L:8.1.0/OPM1.171019.026/S001017_190709_ROW:user/release-keys
