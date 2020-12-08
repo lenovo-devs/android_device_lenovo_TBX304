@@ -20,7 +20,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 # AAPT
-PRODUCT_AAPT_PREF_CONFIG := hdpi
+PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/lenovo/TBX304/TBX304-vendor.mk)
