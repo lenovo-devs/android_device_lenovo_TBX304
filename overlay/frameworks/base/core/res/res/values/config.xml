@@ -378,4 +378,7 @@
 
     <!-- Boolean indicating if current platform supports HFP inband ringing -->
     <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
+
+    <!-- Support double tap to wake -->
+    <bool name="config_supportDoubleTapWake">true</bool>
 </resources>
